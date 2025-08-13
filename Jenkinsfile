@@ -1,5 +1,5 @@
 pipeline {
-    agent { label 'webs-agent' }
+    agent { label 'web-agent' }
     stages {
         stage('Build Website') {
             steps {
